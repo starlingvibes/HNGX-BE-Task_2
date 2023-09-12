@@ -1,6 +1,8 @@
 package main
 
 import (
+	"os"
+
 	"github.com/starlingvibes/HNGX-BE-Task_2/configs"
 	"github.com/starlingvibes/HNGX-BE-Task_2/routes"
 
@@ -16,5 +18,10 @@ func main() {
 	//routes
 	routes.UserRoute(router)
 
-	router.Run("localhost:6000")
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+
+	router.Run(":"+port)
 }
