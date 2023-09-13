@@ -31,4 +31,6 @@ The postman collection can be found [here](https://github.com/starlingvibes/HNGX
 
 ## UML Diagram
 
-![UML Diagram](https://github.com/starlingvibes/HNGX-BE-Task_2/blob/main/models/uml_diagram.png)
+The Unified Modelling Language diagram can be found [here](https://github.com/starlingvibes/HNGX-BE-Task_2/blob/main/models/uml_diagram.png).
+
+![UML Diagram](https://github.com/starlingvibes/HNGX-BE-Task_2/blob/main/models/uml_diagram.png?raw=true)
